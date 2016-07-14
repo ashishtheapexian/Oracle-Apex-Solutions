@@ -1,0 +1,5 @@
+git init
+git add login.txt
+git commit -m "Fifth commit"
+git remote add origin <path>
+git push -u origin master
