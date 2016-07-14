@@ -1,0 +1,107 @@
+/*Menu */
+#menupanel {
+    background: brown;
+}
+
+/*down menu*/
+.panel.ui-panel-inner > .ui-listview > li.ui-first-child .ui-btn{
+    border-top: medium none !important;
+    margin-top: 90px;
+}
+/*menu logo*/
+.ui-panel-inner {
+    padding: 1em;
+    background: red;
+    background:url(#APP_IMAGES#logo.png	);
+    background-size: 100% 90px;
+}
+/*first item menu*/
+.jqm-navmenu-panel .ui-collapsible + li > .ui-btn, .jqm-navmenu-panel .ui-collapsible + .ui-collapsible > .ui-collapsible-heading > .ui-btn, .jqm-navmenu-panel .ui-panel-inner > .ui-listview > li.ui-first-child .ui-btn {
+    border-top: medium none !important;
+    margin-top: 90px;
+    font-family: sans-serif;
+}
+
+/*Second item menu*/
+.ui-page-theme-b .ui-btn, html .ui-bar-b .ui-btn, html .ui-body-b .ui-btn, html body .ui-group-theme-b .ui-btn, html head+body .ui-btn.ui-btn-b, .ui-page-theme-b .ui-btn:visited, html .ui-bar-b .ui-btn:visited, html .ui-body-b .ui-btn:visited, html body .ui-group-theme-b .ui-btn:visited,html head+body .ui-btn.ui-btn-b:visited {
+    background-color: #333;
+    border-color: #1f1f1f;
+    color: #fff;
+    text-shadow: 0 1px 0 #111;
+    font-weight: bold;
+    color: red;
+}
+
+hide menu icons
+.jqm-navmenu-panel .ui-btn:after {
+    opacity: 0.4;
+display:none;
+}
+
+menu button 
+.ui-btn-icon-left:after, .ui-btn-icon-right:after, .ui-btn-icon-top:after, .ui-btn-icon-bottom:after, .ui-btn-icon-notext:after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 22px;
+    height: 22px;
+}
+
+/*Body Attributes*/
+/*top Area of body	*/
+
+.ui-body-a {
+    border-width: 1px;
+    border-style: solid;
+background-color : transparent;
+    border:none;
+}
+/*bottom Area of body*/
+
+.ui-mobile-viewport {
+    margin: 0;
+    overflow-x: visible;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    background-color : transparent;
+    background: url(#APP_IMAGES#bg.jpg);
+}
+/*middle area of  body*/
+#P1 {
+    background: url(#APP_IMAGES#bg.jpg);
+}
+
+/*Title Bar */
+#R16055582778170900 {
+    background: violet;
+    background-color : transparent;
+    border:none;
+    color:white;
+}
+
+/*logout button*/
+
+button#B16055704349170900 {
+   /* background: blue;*/
+    	background:url(#APP_IMAGES#logout.png);
+    border:none;
+}
+#login{
+    width:100%; 
+    height:100px;  
+    background-image: url(#APP_IMAGES#login.png);
+    background-size: 50px 45px;
+    background-repeat: no-repeat;
+    background-color: rgb(3, 172, 225);
+    background-position: left;
+}
+#register{
+    width:100%;   
+    height:100px;
+    background-image: url(#APP_IMAGES#register.jpg);
+    background-size: 50px 45px;
+    background-repeat: no-repeat;
+    background-color: rgb(3, 172, 225);
+    background-position: left;
+}
