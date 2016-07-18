@@ -1,0 +1,37 @@
+<html>
+<head>
+<script>
+function popup(){
+alert ("HI I am POPUP  Alert ");
+}
+
+function confirmation(){
+var a = confirm("Are you Aure");
+	if (a==true)
+	{
+	    
+		window.open("https://www.google.com");
+	}
+	else
+	{
+	window.open("https://www.bing.com");
+	}
+}
+function prompt_test(){
+var b =prompt("Enter your age");
+	if ( b < 18){ window.open("https://www.facebook.com")}
+    else {window.open("https://www.linkedin.com")}	
+
+}
+
+</script>
+</head>
+<input type="Button" value="See POPUP" onclick="popup()"><br/>
+<p><b>Confirm POPUP</b></p></br>
+<input type="button" value="Test Confirm" onclick="confirmation();" ><br/>
+<p><b>Prompt </b></p><br/>
+<input type="button" value="Test Confirm" onclick="prompt_test();" >
+
+
+
+</html>

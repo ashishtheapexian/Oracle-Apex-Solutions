@@ -1,0 +1,23 @@
+<html>
+<head>
+<script>
+function get_a_b(){
+var a,b=14;
+b = void (a=12)
+document.write('Ashish'+a+' =====  '+b);
+}
+</script>
+
+</head>
+<body style="background:green">
+<div style="margin-left:50%">
+<p><b>Void with Alert</b></p>
+<input type="button" value="Submit" onclick="javascript:void(alert('hi'))">
+<p><b>Void with Passing 0 </b></p>
+<input type="button" value="Submit" onclick="javascript:void(0)">
+<p><b>Void with passing Values a=12 , b= 12 </b></p>
+<input type="button" value="Submit" onclick="get_a_b()">
+
+</div>
+</body>
+</html>

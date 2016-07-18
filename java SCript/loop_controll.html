@@ -1,0 +1,30 @@
+<html>
+   <body>
+      
+      <script type="text/javascript">
+         <!--
+            var x = 1;
+			var y =1;
+            document.write("Entering the loop<br /> ");
+         outer:
+           for(x=1;x < 10;x++)
+            {
+			debugger;
+              //x = x + 1;
+			  inner:
+               for (y=1;y < 5 ;y++){
+			   
+					if (x == 5){
+                  break inner; // skip rest of the loop body
+								}
+               document.write( x+'  ----------'+y + "<br />");
+								}					
+			}
+         <!-- x=x+1; -->
+            //document.write("Exiting the loop!<br /> ");
+         //-->
+      </script>
+      
+      
+   </body>
+</html>

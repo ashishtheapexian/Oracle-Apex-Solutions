@@ -1,0 +1,27 @@
+<html>
+<head>
+<script>
+function see1 (){
+var a = new Object();
+a.sahay='Oracle Apex Developer';
+document.write(a.sahay);
+}
+function see2(b,c){
+//var a = new Object(b ,c);
+this.b=b;
+this.c=c;
+document.write(b+c);
+}
+</script>
+</head>
+<body>
+<div style="margin-left:50%;">
+<p>Simple Object </p><br/>
+<input type="button" value="Object Example" onclick="see1()"/><br/>
+<p>Passing Value in Function </p><br/>
+<input type="button" value="Object Example With Parameter" onclick="see2('Ashish','Sahay')"/><br/>
+</div>
+</body>
+
+
+</html>
